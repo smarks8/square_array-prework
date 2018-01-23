@@ -4,7 +4,7 @@ def square_array(array)
   
   for i in array 
     new_num = array[i]
-    new_array.push(new_num**2)
+    new_array << (new_num**2)
     i += 1
   end
   
