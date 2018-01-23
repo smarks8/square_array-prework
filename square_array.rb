@@ -3,7 +3,8 @@ def square_array(array)
   i = 0
   
   for i in array 
-    new_array.push(array[i] ** 2)
+    new_num = array[i]
+    new_array.push(new_num**2)
     i += 1
   end
   
